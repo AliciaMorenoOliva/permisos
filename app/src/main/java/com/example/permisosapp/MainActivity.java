@@ -9,6 +9,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.ImageView;
+
+import java.security.PrivateKey;
 
 
 /*
@@ -29,6 +33,9 @@ La actividad 3 hacedla como el layout de ACTIVIDAD FOTO
 
  */
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+
+
 
     private DrawerLayout drawerLayout;//el menú lateral
     private boolean menu_visible;//para gestionar si está visible o no el menú lateral
